@@ -1,0 +1,62 @@
+h1 {
+    position: relative;
+    font-family: 'Segoe UI';
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -1vw;
+    margin-top: -2vh;
+    color: white;
+    background-color: rgb(24, 12, 53);
+}
+#add {
+    position: relative;
+    font-family: Cambria;
+    font-size: 2vw;
+    margin-top: 3%;
+    height: 7vh;
+    width: 7vw;
+    margin-left: 65%;
+    border-radius: 1vw;
+    border-color: chocolate;
+    border-width: 0.3vw;
+    background-color: brown;
+    outline: none;
+}
+ul li img {
+    position: relative;
+    width: 5%;
+    left: 87%;
+    bottom: -1.3vh;
+}
+ul li img:hover {
+    cursor: pointer;
+    border-color: gray; 
+}
+#todolist {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 25%;
+    line-height: 3em;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Segoe UI';
+    font-size: 2vw;
+    width: 40vw;
+    border-color: rgb(177, 177, 177);
+    border-width: 0.5vh;
+    border-style: solid;
+    list-style-type: none;
+
+}
+#write {
+    position: relative;
+    outline: none;
+    margin-left: 27vw;  
+    margin-top: -5.5vh;
+    border-color: crimson;
+    font-family: 'Gill Sans';
+    font-size: 1.5vw;
+    border-width: 0.15vw;
+    width: 30vw;
+    height: 5vh;
+}

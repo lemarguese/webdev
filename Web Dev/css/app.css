@@ -1,0 +1,12 @@
+.holder {
+  position: absolute;
+
+}
+.firstdisk {
+  position: absolute;
+}
+.seconddisk {
+  position: absolute;
+  transform: rotate(360deg);
+  transition: all linear infinite, ease 1s;
+}

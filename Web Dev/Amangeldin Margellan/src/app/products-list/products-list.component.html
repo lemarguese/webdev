@@ -1,0 +1,27 @@
+<h1> Amangeldin Margellan, ID: 18BD110186 </h1>
+<div>
+  <ul id = "lists">
+    <li *ngFor = "let job of productsonPage"
+    [class.selected]="job === selectJob"
+    (click) = "selectedJob(job)"> 
+      <a [title] = job.title><p id = "desc">{{ job.title }}</p></a>
+      <button>Change description</button> <p id = "rating">Description for this job: {{job.description}}</p><br> 
+    </li>
+  </ul>
+</div>
+
+<!-- <button id = 'likejob' onclick="likeJob(job)">Likes : {{job.like_count}}</button>  -->
+
+<div *ngIf="selectJob" id = 'job'>
+  <h2>{{selectJob.title | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectJob.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selectJob.title" placeholder="name"/><br>
+    </label>
+    <label>description:
+      <input [(ngModel)]="selectJob.description" placeholder="description"/>
+    </label>
+  </div>
+
+</div>
